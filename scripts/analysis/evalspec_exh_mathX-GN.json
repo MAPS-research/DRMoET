@@ -1,0 +1,10 @@
+[
+ {
+  "name": "mathX-GN",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.GN",
+  "dev_docs": 64,
+  "test_docs": 64
+ }
+]

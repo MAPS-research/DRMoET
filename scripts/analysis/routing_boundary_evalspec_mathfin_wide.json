@@ -1,0 +1,210 @@
+[
+ {
+  "name": "mathX-CA",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.CA",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-CT",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.CT",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-CV",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.CV",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-DG",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.DG",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-DS",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.DS",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-FA",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.FA",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-GM",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.GM",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-GN",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.GN",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-GR",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.GR",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-GT",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.GT",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-HO",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.HO",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-KT",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.KT",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-LO",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.LO",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-MG",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.MG",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-NA",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.NA",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-OA",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.OA",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-OC",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.OC",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-QA",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.QA",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-RA",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.RA",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-RT",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.RT",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-SG",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.SG",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-SP",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.SP",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "finX-EC",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "q-fin.EC",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "finX-MF",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "q-fin.MF",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "finX-ST",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "q-fin.ST",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "finX-TH",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "econ.TH",
+  "dev_docs": 64,
+  "test_docs": 64
+ }
+]

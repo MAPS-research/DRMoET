@@ -1,0 +1,50 @@
+[
+ {
+  "name": "mathX-GN",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.GN",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-KT",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.KT",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "finX-EM",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "econ.EM",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "mathX-AG",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "math.AG",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "s2orc-cs",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "cs.CL",
+  "dev_docs": 64,
+  "test_docs": 64
+ },
+ {
+  "name": "finX-TR",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "q-fin.TR",
+  "dev_docs": 64,
+  "test_docs": 64
+ }
+]

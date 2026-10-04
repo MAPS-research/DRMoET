@@ -1,0 +1,15 @@
+[submodule "Megatron-LM"]
+	path = Megatron-LM
+	url = https://github.com/MAPS-research/Megatron-LM.git
+	branch = multi-nodes
+[submodule "apex"]
+	path = apex
+	url = https://github.com/NVIDIA/apex
+[submodule "TransformerEngine"]
+	path = TransformerEngine
+	url = https://github.com/NVIDIA/TransformerEngine.git
+	branch = release_v1.11
+[submodule "lm-evaluation-harness"]
+	path = lm-evaluation-harness
+	url = https://github.com/yuzc19/lm-evaluation-harness.git
+    branch=megatron

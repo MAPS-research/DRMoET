@@ -1,0 +1,14 @@
+[
+  { "name": "mathX-AC", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.AC", "dev_docs": 64, "test_docs": 64 },
+  { "name": "mathX-AG", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.AG", "dev_docs": 64, "test_docs": 64 },
+  { "name": "mathX-AP", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.AP", "dev_docs": 64, "test_docs": 64 },
+  { "name": "mathX-CO", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.CO", "dev_docs": 64, "test_docs": 64 },
+  { "name": "mathX-NT", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.NT", "dev_docs": 64, "test_docs": 64 },
+  { "name": "mathX-PR", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.PR", "dev_docs": 64, "test_docs": 64 },
+  { "name": "finX-CP",  "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-fin.CP", "dev_docs": 64, "test_docs": 64 },
+  { "name": "finX-GN",  "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-fin.GN", "dev_docs": 64, "test_docs": 64 },
+  { "name": "finX-PM",  "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-fin.PM", "dev_docs": 64, "test_docs": 64 },
+  { "name": "finX-PR",  "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-fin.PR", "dev_docs": 64, "test_docs": 64 },
+  { "name": "finX-TR",  "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-fin.TR", "dev_docs": 64, "test_docs": 64 },
+  { "name": "finX-EM",  "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "econ.EM", "dev_docs": 64, "test_docs": 64 }
+]

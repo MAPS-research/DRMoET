@@ -1,0 +1,34 @@
+[
+  {
+    "name": "dclm",
+    "kind": "indexed",
+    "path": "dataset/tokenized/EleutherAI/pythia-12b/gs0310-ls110_shard_00000000_processed_text_document",
+    "first_doc": 0,
+    "dev_docs": 64,
+    "test_docs": 64
+  },
+  {
+    "name": "s2orc-math",
+    "kind": "paloma",
+    "config": "m2d2_s2orc_unsplit",
+    "domain": "math_l1",
+    "dev_docs": 64,
+    "test_docs": 64
+  },
+  {
+    "name": "s2orc-art",
+    "kind": "paloma",
+    "config": "m2d2_s2orc_unsplit",
+    "domain": "Art",
+    "dev_docs": 64,
+    "test_docs": 64
+  },
+  {
+    "name": "s2orc-cs",
+    "kind": "paloma",
+    "config": "m2d2_s2orc_unsplit",
+    "domain": "cs_l1",
+    "dev_docs": 64,
+    "test_docs": 64
+  }
+]

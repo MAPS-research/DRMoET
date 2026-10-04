@@ -1,0 +1,50 @@
+#!/bin/bash
+# Capture the router traces for FLAME-MoE-1.7B-10.3B.
+
+#SBATCH --job-name=capture-1.7b
+#SBATCH --output=logs/%x/%j.log
+
+#SBATCH --time=14-00:00:00
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=1536G
+#SBATCH --cpus-per-task=208
+#SBATCH --gres=gpu:8
+
+# model architecture for FLAME-MoE-1.7B-10.3B
+# Load site configuration (run from the repository root)
+source scripts/config.sh
+
+export NUM_LAYERS=18
+export HIDDEN_SIZE=2048
+export FFN_HIDDEN_SIZE=10944
+export MOE_FFN_HIDDEN_SIZE=1408
+export MOE_LAYER_FREQ="[0]*1+[1]*17"
+export MICRO_BATCH_SIZE=4
+export PIPELINE_MODEL_PARALLEL_SIZE=1
+export EXPERT_MODEL_PARALLEL_SIZE=8
+export TRAIN_ITERS=11029
+export RDZV_BACKEND="c10d"
+export RDZV_ENDPOINT="localhost:8000"
+
+# where to load the pretrained weights and dataset
+export TRAIN_JOB_ID=31245
+export TRAIN_JOB_NAME=flame-moe-1.7b
+export TRAIN_WEIGHTS=$GCP_WEIGHTS/$TRAIN_JOB_NAME/$TRAIN_JOB_ID
+export TRAIN_DATASET=$GCP_DATASET/dclm-138b/tokenized/EleutherAI/pythia-12b
+
+srun scripts/empirical_analysis/modules/capture_step1.sh
+
+# trace the router for each iteration
+for item in $(ls -d $SSD_WEIGHTS/iter_* | sort -r); do
+    name=$(basename $item)
+    step=$((10#${name#iter_}))
+    echo "Capturing $step ..."
+    export EACT_SAVE=$SSD_MOUNT/actives/$step
+    export TIDS_SAVE=$SSD_MOUNT/samples
+    echo $step > $SSD_WEIGHTS/latest_checkpointed_iteration.txt
+    srun scripts/empirical_analysis/modules/capture_step2.sh
+done
+
+srun scripts/empirical_analysis/modules/capture_step3.sh

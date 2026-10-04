@@ -1,0 +1,16 @@
+[
+  {
+    "name": "dclm",
+    "kind": "indexed",
+    "path": "dataset/tokenized/EleutherAI/pythia-12b/gs0310-ls110_shard_00000000_processed_text_document",
+    "first_doc": 0,
+    "max_docs": 64
+  },
+  { "name": "cs.CL",          "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "cs.CL",          "split": "test", "max_docs": 64 },
+  { "name": "q-fin.RM",       "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-fin.RM",       "split": "test", "max_docs": 64 },
+  { "name": "q-bio.GN",       "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "q-bio.GN",       "split": "test", "max_docs": 64 },
+  { "name": "physics.med-ph", "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "physics.med-ph", "split": "test", "max_docs": 64 },
+  { "name": "hep-lat",        "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "hep-lat",        "split": "test", "max_docs": 64 },
+  { "name": "math.AT",        "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "math.AT",        "split": "test", "max_docs": 64 },
+  { "name": "stat.ME",        "kind": "paloma", "config": "m2d2_s2orc_unsplit", "domain": "stat.ME",        "split": "test", "max_docs": 64 }
+]

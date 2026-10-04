@@ -1,0 +1,10 @@
+[
+ {
+  "name": "finX-EM",
+  "kind": "paloma",
+  "config": "m2d2_s2orc_unsplit",
+  "domain": "econ.EM",
+  "dev_docs": 64,
+  "test_docs": 64
+ }
+]
